@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gmbr16"
+    tools:context=".akunActivity">
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="300dp">
+
+    <RadioButton
+        android:id="@+id/radiobutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YA"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:layout_marginLeft="75dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton2"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TIDAK"
+        android:textSize="15dp" />
+
+    <RadioButton
+        android:id="@+id/radiobutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YA"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="140dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton5"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TIDAK"
+        android:textSize="15dp" />
+
+    <RadioButton
+        android:id="@+id/radiobutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YA"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="130dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton6"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TIDAK"
+        android:textSize="15dp" />
+
+
+
+
+</RadioGroup>
+</LinearLayout>

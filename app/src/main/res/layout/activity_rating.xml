@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gmbr18"
+    tools:context=".ratingActivity">
+
+    <RatingBar
+        android:id="@+id/Ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="85dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+
+        android:progressBackgroundTint="@color/grey"
+        android:progressTint="@color/blue"
+
+        />
+
+
+
+
+</RelativeLayout>

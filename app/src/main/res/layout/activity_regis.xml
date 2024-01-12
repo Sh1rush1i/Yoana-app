@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar3"
+    tools:context=".RegisActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="270dp"
+        android:text="Registrasi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:backgroundTint="@color/blue"
+        android:layout_below="@id/login"
+        android:fontFamily="sans-serif-black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="500dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/login">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Name"
+            android:paddingLeft="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:background="@drawable/button_shape"
+            android:id="@+id/name"
+            android:drawablePadding="10dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/pw"
+            android:background="@drawable/button_shape"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/confrim"
+            android:background="@drawable/button_shape"
+            android:drawablePadding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_4"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="6dp"
+            android:textColor="@color/blue"
+            android:id="@+id/reg_2"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
